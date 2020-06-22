@@ -7,23 +7,23 @@ date_published: 2019-07-12
 ---
 
 This tutorial demonstrates how to use Terraform to deploy the High Availability VPN resources on GCP that are used in the
-[VPN interoperability guides](https://cloud.google.com/vpn/docs/how-to/interop-guides).
+[VPN interoperability guides](https://cloud.google.com/network-connectivity/docs/vpn/how-to/interop-guides).
 
 ## Objectives
 
-Deploy HA VPN with a [1-peer-2-addresses](https://cloud.google.com/vpn/docs/concepts/topologies#1-peer-2-addresses) 
+Deploy HA VPN with a [1-peer-2-addresses](https://cloud.google.com/network-connectivity/docs/vpn/concepts/topologies#1-peer-2-addresses) 
 configuration on Google Cloud Platform (GCP).
 
 ## Before you begin
 
 *   This guide assumes that you are familiar with [Terraform](https://cloud.google.com/docs/terraform). Instructions provided in this guide
     are based on the GCP envrionment depicted in the
-    [HA VPN interop guides](https://cloud.google.com/vpn/docs/how-to/interop-guides) and are only for testing purposes.
+    [HA VPN interop guides](https://cloud.google.com/network-connectivity/docs/vpn/how-to/interop-guides) and are only for testing purposes.
 
 *   See [Getting started with Terraform on GCP](https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform) to set up your Terraform envrionment for GCP.
 
 *   Ensure the you have a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) with 
-    [sufficient permissions](https://cloud.google.com/vpn/docs/how-to/creating-ha-vpn2#permissions) to deploy the resources
+    [sufficient permissions](https://cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn2#permissions) to deploy the resources
     used in this tutorial.
 
 ## Quickstart
@@ -64,6 +64,6 @@ configuration on Google Cloud Platform (GCP).
 ## References
 
 *   [Automated multi-cloud classic VPN](https://github.com/GoogleCloudPlatform/autonetdeploy-multicloudvpn)
-*   [HA VPN topologies](https://cloud.google.com/vpn/docs/concepts/topologies#1-peer-2-addresses)
-*   [Creating HA VPN](https://cloud.google.com/vpn/docs/how-to/creating-ha-vpn)
-*   [VPN interop guides](https://cloud.google.com/vpn/docs/how-to/interop-guides)
+*   [HA VPN topologies](https://cloud.google.com/network-connectivity/docs/vpn/concepts/topologies#1-peer-2-addresses)
+*   [Creating HA VPN](https://cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn)
+*   [VPN interop guides](https://cloud.google.com/network-connectivity/docs/how-to/interop-guides)
